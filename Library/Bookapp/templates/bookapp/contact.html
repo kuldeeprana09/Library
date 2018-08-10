@@ -1,0 +1,15 @@
+﻿{% extends "layout.html" %}
+{% block content %}  
+
+  {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'bookapp/css/site.css' %}" />
+
+<div id="contactdiv">
+
+        <p>You can contact us:-</p>
+        <a href="{% url 'index' %}">Home</a>
+    </div>
+{% endblock %}
+
+
+

@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Bookapp',
+    'banners',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -53,6 +55,7 @@ MIDDLEWARE_CLASSES = [
 ]
 
 ROOT_URLCONF = 'Library.urls'
+
 
 TEMPLATES = [
     {
@@ -123,3 +126,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
+
+LOGIN_REDIRECT_URL = '/Bookapp/'

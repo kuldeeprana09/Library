@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    {% block head %}
+    <meta charset="utf-8" />
+    <title>{{ title }}</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'bookapp/css/site.css' %}" />
+    {% endblock%}
+</head>
+
+<body>
+    {% block header%}
+    <header>
+        <nav>
+            <h1>Library</h1>
+            <ul id="nav">
+                <li ><a href="{% url 'index' %}" class="homered">Home</a></li>
+                <li><a href="{% url 'about' %}" class="homeblack">About</a></li>
+                <li><a href="{% url 'contact' %}" class="homeblack">Contact</a></li>
+                <li><a href="{% url 'event' %}" class="homeblack">Events</a></li>
+                <li><a href="{% url 'donation' %}" class="homeblack">Donations</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="divider"></div>
+    <div class="backimage"></div>
+   
+   {% endblock %}
+    
+    
+    
+  <div class="body-content">
+     
+        {% block content %}
+
+        {% endblock %}
+    </div> 
+
+            <footer>
+            <p>Library&copy; 2018</p>
+        </footer>
+</body>
+</html>
