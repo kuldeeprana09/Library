@@ -42,6 +42,9 @@
     <Compile Include="banners\__init__.py" />
     <Compile Include="Bookapp\admin.py" />
     <Compile Include="Bookapp\apps.py" />
+    <Compile Include="Bookapp\forms.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Bookapp\migrations\__init__.py" />
     <Compile Include="Bookapp\models.py" />
     <Compile Include="Bookapp\tests.py" />
@@ -50,6 +53,9 @@
     </Compile>
     <Compile Include="Bookapp\views.py" />
     <Compile Include="Bookapp\__init__.py" />
+    <Compile Include="Library\views.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="manage.py" />
     <Compile Include="Library\__init__.py" />
     <Compile Include="Library\settings.py" />
@@ -78,12 +84,14 @@
     <Content Include="Bookapp\static\bookapp\js\bootstrap.js" />
     <Content Include="Bookapp\static\bookapp\js\bootstrap.min.js" />
     <Content Include="Bookapp\static\bookapp\js\npm.js" />
-    <Content Include="Bookapp\templates\bookapp\donation.html" />
-    <Content Include="Bookapp\templates\bookapp\event.html" />
-    <Content Include="Bookapp\templates\bookapp\about.html" />
-    <Content Include="Bookapp\templates\bookapp\contact.html" />
-    <Content Include="Bookapp\templates\bookapp\index.html" />
-    <Content Include="Bookapp\templates\bookapp\login.html" />
+    <Content Include="Bookapp\templates\Bookapp\donation.html" />
+    <Content Include="Bookapp\templates\Bookapp\event.html" />
+    <Content Include="Bookapp\templates\Bookapp\about.html" />
+    <Content Include="Bookapp\templates\Bookapp\contact.html" />
+    <Content Include="Bookapp\templates\Bookapp\index.html" />
+    <Content Include="Bookapp\templates\Bookapp\logout.html" />
+    <Content Include="Bookapp\templates\Bookapp\login.html" />
+    <Content Include="Bookapp\templates\Bookapp\register.html" />
     <Content Include="Bookapp\templates\layout.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
@@ -93,6 +101,7 @@
     <Folder Include="banners\templates\" />
     <Folder Include="banners\templates\banners\" />
     <Folder Include="Bookapp\" />
+    <Folder Include="D:\PythonProject\Library\Library\Bookapp\" />
     <Folder Include="Bookapp\migrations\" />
     <Folder Include="Bookapp\static\" />
     <Folder Include="Bookapp\static\bookapp\" />
@@ -101,7 +110,7 @@
     <Folder Include="Bookapp\static\bookapp\images\" />
     <Folder Include="Bookapp\static\bookapp\js\" />
     <Folder Include="Bookapp\templates\" />
-    <Folder Include="Bookapp\templates\bookapp\" />
+    <Folder Include="D:\PythonProject\Library\Library\Bookapp\templates\Bookapp\" />
     <Folder Include="Library\" />
   </ItemGroup>
   <ItemGroup>

@@ -74,6 +74,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'Library.wsgi.application'
+ROOT_URLCONF = 'Library.urls'
 
 
 # Database

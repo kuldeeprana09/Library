@@ -113,3 +113,12 @@ nav ul {
     text-decoration: solid;
     text-decoration-style: solid;
 }
+
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
